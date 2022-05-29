@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Circle } from "./Componets/Circle"
+import { ShootButton } from "./Componets/ShootButton"
+// import { Circle } from "./Componets/Circle"
 
 function App() {
+  const[newCircle, setNewCircle] = useState([]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <div>
+      <Circle/>
+      </div>
+     <div>
+       <ShootButton/>
+     </div>
     </div>
   );
 }

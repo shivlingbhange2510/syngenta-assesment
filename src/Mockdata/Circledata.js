@@ -1,0 +1,27 @@
+export const circleData=[
+    {
+        id:0,
+        color:"blue",
+        position:0,
+    },
+    {
+        id:1,
+        color:"brown",
+        position:2,
+    },
+    {
+        id:0,
+        color:"magenta",
+        position:0,
+    },
+    {
+        id:0,
+        color:"green",
+        position:0,
+    },
+    {
+        id:0,
+        color:"gold",
+        position:0,
+    }
+]
